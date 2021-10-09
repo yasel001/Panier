@@ -1,0 +1,142 @@
+/*EL FILALI Yassine*/
+
+body {
+	background-color: #FFFACD;
+	cursor: url(../img/curseur.png), auto ;
+}
+
+table {
+	border:3px solid #D2B48C;
+	border-collapse:collapse;
+	margin:auto;
+}
+
+th {
+	font-family:monospace;
+	border:1px dotted #FFE4C4;
+	padding:5px;
+	background-color:#FFF8DC;
+	color:#D2B48C;
+	text-shadow: #FC0 1px 0 10px;
+}
+
+td {
+	font-family:Calibri;
+	font-size:80%;
+	border:1px solid #D2B48C;
+	padding:5px;
+}
+
+input {
+	background-color: khaki;
+	color: #84004A;
+	font-family:Times New Roman;
+}
+
+h2 {
+	text-align: center;
+	color: silver;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: silver;
+	font-weight: bold;
+
+}
+
+.col_td {
+	background-color: #FFE4C4;
+}
+.alignement {
+	text-align: right;
+}
+
+.alignage_centre_td {
+	text-align: center;
+}
+
+.centrageimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.a_tobutton{
+	font-family: roboto;
+	font-weight: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 2px;
+	padding: 10px 15px;
+	background-color: transparent;
+}
+
+.tr_td_right{
+	text-align: right;
+}
+
+.tr_td_bold{
+	font-weight: bold;
+}
+
+.gest_erreur{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.gest_ajout{
+	text-align: center;
+	color: #6B8E23;
+	font-weight: bold;
+}
+
+.image{
+	float: right;
+}
+
+.image_taille{
+	width : 30px;
+	height: 30px;
+}
+
+select option[value="Calculatrice"] {
+	background: #EE82EE;
+	color: white;
+}
+
+select option[value="Cartouche"] {
+	background: #4B0082;
+	color: white;
+}
+
+select option[value="Imprimante"] {
+	background: #B0C4DE;
+	color: white;
+}
+
+select option[value="Papier"] {
+	background: #556B2F;
+	color: white;
+}
+
+select option[value="Smartphone"] {
+	background: #EEE8AA;
+	color: white;
+}
+
+select option[value="Television"] {
+	background: #FF7F50;
+	color: white;
+}
+
+select{
+	position: relative;
+	width: 120px;
+	height: 45px;
+	border-radius: 5px;
+	border: 1px solid #CED4DA;
+	background-color: khaki;
+}
