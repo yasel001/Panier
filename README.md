@@ -2,6 +2,7 @@
 
 ## Présentation
 Ajouter des articles dans un panier.
+Projet réalisé lors de ma 1ère année de bachelier informatique de gestion.
 
 ## Configuration
 Le script de création de la base de données coophelha se trouve dans le répertoire sql du projet.
